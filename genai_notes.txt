@@ -1,0 +1,54 @@
+GENAI (GENERATIVE AI) - SIMPLE NOTES
+
+1. What is Generative AI?
+Generative AI is a type of artificial intelligence that can create new content like text, images, audio, and code.
+Examples: ChatGPT, DALL·E, Gemini
+
+2. Types of Generative Models
+- Text Generation (Chatbots)
+- Image Generation
+- Audio Generation
+- Video Generation
+
+3. Key Concepts
+- Model: A trained AI system
+- Dataset: Data used to train the model
+- Training: Teaching the model using data
+- Inference: Using the trained model to generate output
+
+4. Popular Models
+- GPT (for text)
+- GAN (for images)
+- Diffusion Models (for images)
+
+5. Applications
+- Chatbots
+- Content writing
+- Image creation
+- Code generation
+- Healthcare assistance
+
+6. Advantages
+- Saves time
+- Automates tasks
+- Improves creativity
+
+7. Limitations
+- Can give wrong answers
+- Needs large data
+- Bias in data
+
+8. Fine-Tuning
+Customizing a model using your own data
+
+9. Prompt Engineering
+Giving correct input (prompt) to get better output
+
+Example:
+Bad Prompt: Tell me about AI
+Good Prompt: Explain AI in simple terms with examples
+
+10. Ethics in GenAI
+- Avoid fake information
+- Respect privacy
+- Avoid harmful content
