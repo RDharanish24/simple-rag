@@ -4,9 +4,16 @@ from sentence_transformers import SentenceTransformer
 from fastapi import FastAPI
 from pydantic import BaseModel
 app=FastAPI()
-model=SentenceTransformer("all-MiniLM-L6-v2")
-client=chromadb.PersistentClient(path="./local_db")
+model = None
 
+def get_model():
+    global model
+    if model is None:
+        model = SentenceTransformer("all-MiniLM-L6-v2")
+    return model
+
+client=chromadb.PersistentClient(path="./local_db")
+model = get_model() 
 collection=client.get_or_create_collection(
     name="document_store",
     metadata={"hnsw:space":"cosine"}
