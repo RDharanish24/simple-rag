@@ -1,0 +1,10 @@
+numpy
+sentence-transformers
+ollama
+langchain-text-splitters
+chromadb
+fastapi
+pydantic
+streamlit
+requests
+uvicorn
